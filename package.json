@@ -1,0 +1,43 @@
+{
+  "name": "spdx-license",
+  "version": "1.0.0",
+  "description": "Get SPDX license information",
+  "license": "MIT",
+  "author": {
+    "name": "Connor White",
+    "email": "connor.bcw@gmail.com",
+    "url": "https://connorwhite.org"
+  },
+  "homepage": "https://connorwhite.org/github/spdx-license",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bconnorwhite/spdx-license.git"
+  },
+  "keywords": [
+    "typed",
+    "license",
+    "get",
+    "spdx",
+    "osi",
+    "url",
+    "name",
+    "text"
+  ],
+  "files": [
+    "build"
+  ],
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "bob build",
+    "postversion": "git push",
+    "prepublishOnly": "yarn run build && yarn run test",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cross-fetch-json": "^1.1.0"
+  },
+  "devDependencies": {
+    "@bconnorwhite/bob": "^2.0.1",
+    "jest": "^26.4.2"
+  }
+}
