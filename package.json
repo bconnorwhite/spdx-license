@@ -21,7 +21,17 @@
     "osi",
     "url",
     "name",
-    "text"
+    "text",
+    "licenses",
+    "mit",
+    "bsd",
+    "list",
+    "open",
+    "source",
+    "software",
+    "id",
+    "ids",
+    "identifiers"
   ],
   "files": [
     "build"
