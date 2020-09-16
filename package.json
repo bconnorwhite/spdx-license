@@ -1,6 +1,6 @@
 {
   "name": "spdx-license",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get SPDX license information",
   "license": "MIT",
   "author": {
